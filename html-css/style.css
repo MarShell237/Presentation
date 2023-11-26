@@ -156,9 +156,13 @@ main p{
         height: 45px;
         background-color: #FAE4D5;
     }
+
+    nav div{
+        margin: 5px;
+    }
     
     nav div a{
-        font-size: 1em;
+        font-size: 0.8em;
     }
         
     nav div img{
