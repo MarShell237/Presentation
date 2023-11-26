@@ -41,7 +41,7 @@ nav  #logo img{
     height: 100%;
 }
 
-nav div #logo :hover{
+ nav #logo :hover{
     box-shadow: none;
 }
 
@@ -65,4 +65,86 @@ nav div #logo :hover{
 #text-bienvenu #mot-bienvenu{
     font-size: 3em;
     color: #006FBF;
+}
+
+#localisation{
+    background-color: #B3C6E6;
+}
+
+#contact{
+    background-color: #D8D8D8;
+}
+
+main #rejoignez{
+    width:200px;
+    height: 50px;
+    margin: 40px;
+    margin-left: 40%;
+}
+
+main p{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+#personnel{
+    margin: 5px 0 30px 45%;
+    width: 100px;
+    background-color: #D8D8D8;
+}
+
+#section2{
+    display: flex;
+    justify-content: center;
+}
+
+#formulaire{
+    background-color: #FAE4D5;
+    width: 100%;
+}
+
+#formulaire p{
+    width: 190px;
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30%;
+    border-radius: 10px;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+#formulaire input{
+    width: 90%;
+    margin: 25px 15px 25px 15px;
+    border: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+}
+
+#formulaire textarea{
+    width: 90%;
+    margin: 25px 15px 0px 15px;
+    border: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#images{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    text-align: center;
+}
+
+#images img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
 }
