@@ -148,3 +148,40 @@ main p{
     height: 200px;
     margin: 30px;
 }
+
+@media screen and (max-width:600px){
+    nav{
+        display: flex;
+        justify-content:center;
+        height: 45px;
+        background-color: #FAE4D5;
+    }
+    
+    nav div a{
+        font-size: 1em;
+    }
+        
+    nav div img{
+        width: 0.7em;
+        height: 0.7em;
+    }
+    
+    nav #logo{
+        width: 100px;
+        height: 100%;
+    }
+    
+    nav  #logo img{
+        width: 100%;
+        height: 100%;
+    }
+
+    #section2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #section2 div img{
+        width: 100%;
+    }
+}
