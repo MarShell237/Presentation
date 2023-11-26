@@ -158,7 +158,8 @@ main p{
     }
 
     nav div{
-        margin: 5px;
+        border-left: black 1px solid;
+        border-right: black 1px solid;
     }
     
     nav div a{
